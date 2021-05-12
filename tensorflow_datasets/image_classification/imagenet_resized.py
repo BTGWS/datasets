@@ -47,7 +47,8 @@ Additionally, the original authors 1 index there labels which we convert to
 """
 
 _LABELS_FNAME = 'image_classification/imagenet_resized_labels.txt'
-_URL_PREFIX = 'http://www.image-net.org/image/downsample/'
+# _URL_PREFIX = 'http://www.image-net.org/image/downsample/'
+_URL_PREFIX = 'http://www.image-net.org/data/downsample/'
 
 
 class ImagenetResizedConfig(tfds.core.BuilderConfig):
